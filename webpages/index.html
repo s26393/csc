@@ -4,60 +4,47 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <script src="/bootstrap-3.3.7-dist/js/jquery.min.js"></script>
-    <script src="/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap-grid.rtl.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap-reboot.rtl.min.css">
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap-utilities.rtl.min.css">
+    <script src="/bootstrap-5.2.2-dist/js/jquery.min.js"></script>
+    <script src="/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <script src="/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/bootstrap-5.2.2-dist/js/script.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-white-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="/images/2201608.jpg" title="Digital Seva Portal" alt="Digital Seva Portal" style="height: 55px;width:100px;"></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">Home  सुप्रभात </a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-
-        </div>
-    </div>
-</nav>
-
-
-
-<div class="jumbotron text-center">
-    <h1>My First Bootstrap Page</h1>
-    <p>Resize this responsive page to see the effect!</p>
-</div>
-
+<main>
 <div class="container">
+    <div data-include="header"></div>
+    <div class="container-fluid py-5 text-center">
+    <h1>घर बैठे बनवाये दस्तावेज</h1>
+    <p>आधार कार्ड | पैन कार्ड | आय प्रमाण पत्र | जाति प्रमाण पत्र | शपथ पत्र</p>
+    </div>
+    <div class="container-fluid py-5 ">
     <div class="row">
         <div class="col-sm-4">
-            <h3>Column 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <h3>ई -पैन कार्ड</h3>
+            <p>ई पैन कार्ड बनाने के लिए आपके पास आधार कार्ड होना चाहिए| बस आपको नीचे दिए लिंक पर क्लिक करिये और अपनी कुछ जानकारी दे | </p>
+            <p><a href="https://forms.gle/xF2YXosXkbN9ecup9">लिंक पर क्लिक करिये</a></p>
         </div>
         <div class="col-sm-4">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <h3>आधार कार्ड</h3>
+            <p>आपके पास आधार कार्ड होना चाहिए| बस आपको नीचे दिए लिंक पर क्लिक करिये और अपनी कुछ जानकारी दे |</p>
+            <p><a href="https://forms.gle/qJdGrwr9qb55Y4MH9">लिंक पर क्लिक करिये</a></p>
         </div>
         <div class="col-sm-4">
-            <h3>Column 3</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+            <h3>आय प्रमाण पत्र | जाति प्रमाण पत्र | शपथ पत्र</h3>
+            <p>आपके पास आधार कार्ड होना चाहिए| बस आपको नीचे दिए लिंक पर क्लिक करिये और अपनी कुछ जानकारी दे |</p>
+            <p><a href="https://forms.gle/qJdGrwr9qb55Y4MH9">लिंक पर क्लिक करिये</a></p>
         </div>
     </div>
+    </div>
+    <div data-include="footer1"></div>
 </div>
-
+</main>
 </body>
 </html>
